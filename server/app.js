@@ -29,7 +29,7 @@ export const app = express();
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: ["https://i-mitra-voice-based-assistant.vercel.app/","https://i-mitra-voice-based-assistant-git-main-vedika-04s-projects.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     credentials: true,
   })
